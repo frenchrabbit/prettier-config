@@ -4,7 +4,7 @@
   "description": "frabbit prettier config for prettier 2",
   "main": "index.js",
   "scripts": {
-    "publish": "bumpp && npm publish"
+    "release": "npm publish"
   },
   "author": "hello@frabbit.ru",
   "license": "MIT",
@@ -19,7 +19,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "bumpp": "^9.2.0",
     "prettier": "^2.8.8"
   }
 }
