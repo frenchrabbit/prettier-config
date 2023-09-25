@@ -1,0 +1,36 @@
+module.exports = {
+  singleQuote: true,
+  vueIndentScriptAndStyle: true,
+  semi: false,
+  trailingComma: 'es5',
+  // arrowParens: 'avoid',
+  overrides: [
+    {
+      files: [
+        '**/node_modules/**',
+        '**/dist/**',
+        '**/output/**',
+        '**/coverage/**',
+        '**/.vitepress/cache/**',
+        '**/.nuxt/**',
+        '**/.vercel/**',
+        '**/.changeset/**',
+        '**/.idea/**',
+        '**/.output/**',
+        '**/.vite-inspect/**',
+        '**/CHANGELOG*.md',
+        '**/*.min.*',
+        '**/LICENSE*',
+        '**/__snapshots__',
+        '**/auto-import?(s).d.ts',
+        '**/components.d.ts',
+        '**/pnpm-lock.yaml',
+        '**/package-lock.json',
+        '**/yarn.lock',
+      ],
+      options: {
+        requirePragma: true,
+      },
+    },
+  ],
+}
