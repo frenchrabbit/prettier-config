@@ -1,9 +1,10 @@
-module.exports = {
+import type { Config } from 'prettier'
+
+const config: Config = {
   singleQuote: true,
   vueIndentScriptAndStyle: true,
   semi: false,
-  trailingComma: 'es5',
-  // arrowParens: 'avoid',
+  trailingComma: 'all',
   overrides: [
     {
       files: [
@@ -34,3 +35,5 @@ module.exports = {
     },
   ],
 }
+
+export default config
