@@ -1,6 +1,6 @@
 {
   "name": "@frabbit/prettier-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "type": "module",
   "description": "frabbit prettier config for prettier 3",
   "main": "./dist/index.mjs",
