@@ -1,6 +1,6 @@
 {
   "name": "@frabbit/prettier-config",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "type": "module",
   "description": "frabbit prettier config for prettier 3",
   "types": "./dist/index.d.mts",
