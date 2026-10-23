@@ -3,7 +3,6 @@
   "version": "3.0.1",
   "type": "module",
   "description": "frabbit prettier config for prettier 3",
-  "main": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "exports": {
     ".": "./dist/index.mjs",
@@ -34,11 +33,10 @@
     "prettier": "^3.0.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "bumpp": "^11.0.1",
-    "prettier": "^3.8.2",
-    "tsdown": "^0.16.0",
-    "typescript": "^5.8.3"
-  },
-  "module": "./dist/index.mjs"
+    "@types/node": "^26.6.5",
+    "bumpp": "^12.3.0",
+    "prettier": "^3.9.10",
+    "tsdown": "^0.23.1",
+    "typescript": "^7.0.2"
+  }
 }
